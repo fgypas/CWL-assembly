@@ -3,11 +3,11 @@ cwl:tool: megahit_pipeline_simple.cwl
 run_id: ERR866589
 
 forward_reads:
-  location: http://ftp-private.ebi.ac.uk/ERR866603_1.fastq.gz
+  location: ftp://ftp-private.ebi.ac.uk/upload/foivos/ERR866603_1.fastq.gz
   class: File
 
 reverse_reads:
-  location: http://ftp-private.ebi.ac.uk/ERR866603_2.fastq.gz
+  location: ftp://ftp-private.ebi.ac.uk/upload/foivos/ERR866603_2.fastq.gz
   class: File
 
 output_dest: "out.json"
